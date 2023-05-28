@@ -1,5 +1,8 @@
 import matplotlib.pyplot as plt
 import json
+plt.rcParams["figure.figsize"] = [50,50]
+plt.rcParams["figure.autolayout"] = True
+fig = plt.figure()
 kr = {}
 with open("./plaintext/finish.txt","r",encoding="utf-8") as f:
     fr = json.loads(f.read())
@@ -11,5 +14,5 @@ with open("./plaintext/finish.txt","r",encoding="utf-8") as f:
             kr[i] = fr[i]
     xpoints = sorted(kr.keys())
     ypoints = sorted(kr.values())
-    plt.plot(xpoints, ypoints)
+    plt.stem(xpoints, ypoints,)
     plt.show()

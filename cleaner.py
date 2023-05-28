@@ -1,5 +1,5 @@
-import json
 """NOT IN USE"""
+import json
 with open("./plaintext/finish.txt",'r',encoding='utf-8') as fin:
     finish = json.loads(fin.read())
 
