@@ -17,6 +17,7 @@ requires you to download data from instagram and copy /saved to script directory
 
     that's all its doing, just plotting points, I've no idea what do with it open a issue if you have some ideas
 </hr>
+
 ## Why?
 I have no idea, I now have a bunch of text files with hashtags from the post description and their counts
 
